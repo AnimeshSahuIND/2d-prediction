@@ -216,7 +216,7 @@ printf("--> Some concepts and equations are taken from the bellow reference...\n
 //error message if dataset file is not present
 void error_dataset(){
 	printf("Error !!!  Please provide dataset file for training the model...\n");
-	printf("Note 1: Dataset file name must be same as --> xy-dataset.txt \n");
+	printf("Note 1: Dataset file name must be same as --> dataset-xy.txt \n");
 	printf("Note 2: Dataset file must be present in the same directry where this program is present...\n");
 	printf("Note 3: Dataset inside the file should be of following format...\n");
 	printf("n\n");
