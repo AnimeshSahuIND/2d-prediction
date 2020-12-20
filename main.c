@@ -38,7 +38,7 @@ void main(){
 		printf("\n");
 	}
 	//printf("\n");
-	FILE *fp=fopen ("xy-dataset.txt","r");//opening the dataset file
+	FILE *fp=fopen ("dataset-xy.txt","r");//opening the dataset file
 	if(fp!=0){
 		//scaning the required inputs
 		fscanf(fp,"%d",&n);//scanning total number of dataset present in the file
